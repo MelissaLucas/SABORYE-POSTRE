@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fffafc;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #f7b7cc, #f78fa7);
+  padding: 15px 40px;
+  color: white;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.logo h1 {
+  font-size: 26px;
+  margin: 0;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffe9f1;
+}
+
+.contenido-nosotros {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+.contenido-nosotros h2 {
+  color: #e94e77;
+  margin-top: 35px;
+  font-size: 26px;
+}
+
+.contenido-nosotros p {
+  color: #444;
+  font-size: 17px;
+}
+
+/* Botón de descarga */
+.boton-descargar {
+  display: inline-block;
+  background-color: #e94e77;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 25px;
+  transition: 0.3s;
+}
+
+.boton-descargar:hover {
+  background-color: #ffb3c9;
+}
+
+/* Centrado */
+.descarga {
+  text-align: center;
+  margin-top: 40px;
+}
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    font-size: 0.9rem;
+    color: #aaa;
+}
